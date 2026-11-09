@@ -1,0 +1,5 @@
+probe,features,macroF1,balanced_acc,accuracy
+identifiers only,"ip.src,ip.dst,eth.src,eth.dst",0.9927,0.993,0.9995
+absolute time only,_abs_time,0.7087,0.7769,0.9777
+checksums only,"ip.checksum,tcp.checksum",0.2337,0.2139,0.8187
+4 behavioural (reference),"frame.len,tcp.flags,ip.ttl,ip.proto",0.3905,0.7566,0.6344

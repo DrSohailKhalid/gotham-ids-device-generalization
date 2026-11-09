@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "When using this benchmark, cite the accompanying manuscript and the Gotham dataset."
+title: "Gotham IDS: Generalization to Unseen Devices"
+type: software
+authors:
+  - family-names: Asif
+    given-names: Haleema
+  - family-names: Waheed
+    given-names: Minahil
+  - family-names: Latif
+    given-names: Saba
+  - family-names: Khalid
+    given-names: Sohail

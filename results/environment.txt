@@ -1,0 +1,11 @@
+python        3.13.15
+numpy         2.1.3
+pandas        2.2.3
+scikit-learn  1.6.1
+torch         2.11.0+cu128
+device        cuda
+seed          20260101
+scale         main (8000 rows/device, devices=all)
+label_mode    coarse6
+config_hash   e21113edae
+run_tag       main_coarse6_e21113edae

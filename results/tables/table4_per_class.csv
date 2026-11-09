@@ -1,0 +1,8 @@
+class,precision,recall,f1,support,authors_DNN_f1
+Brute Force,0.967,0.56,0.708,656.125,0.6
+C&C Communication,0.665,0.548,0.586,217.5,0.97
+DoS,0.742,0.747,0.745,4291.625,0.94
+Infection,0.826,0.642,0.677,78.0,0.0
+Network Scanning,0.66,0.984,0.756,1371.125,0.56
+Normal,1.0,0.999,0.999,43884.875,0.69
+Unknown,0.866,0.831,0.845,41.25,

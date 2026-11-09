@@ -1,0 +1,2 @@
+rows,features,exact_duplicate_rate,cross_label_duplicate_group_rate,constant_columns
+404324,22,0.0299,0.0,ip.tos

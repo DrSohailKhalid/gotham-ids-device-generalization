@@ -1,0 +1,84 @@
+{
+  "P1-random": {
+    "n_folds": 5,
+    "design": "stratified 5-fold over shuffled packets",
+    "sizes": [
+      [
+        323459,
+        80865
+      ],
+      [
+        323459,
+        80865
+      ],
+      [
+        323459,
+        80865
+      ],
+      [
+        323459,
+        80865
+      ],
+      [
+        323460,
+        80864
+      ]
+    ]
+  },
+  "P2-device": {
+    "n_folds": 8,
+    "design": "leave-one-attacked-device-out (8 folds); benign devices partitioned round-robin",
+    "sizes": [
+      [
+        348474,
+        55850
+      ],
+      [
+        359318,
+        45006
+      ],
+      [
+        362686,
+        41638
+      ],
+      [
+        349867,
+        54457
+      ],
+      [
+        335341,
+        68983
+      ],
+      [
+        356229,
+        48095
+      ],
+      [
+        354341,
+        49983
+      ],
+      [
+        364012,
+        40312
+      ]
+    ]
+  },
+  "P3-segment": {
+    "n_folds": 3,
+    "design": "leave-one-segment-out over attacked segments [1, 2, 4]; segment 3 always in train",
+    "sizes": [
+      [
+        357666,
+        46658
+      ],
+      [
+        357365,
+        46959
+      ],
+      [
+        333594,
+        70730
+      ]
+    ]
+  }
+}

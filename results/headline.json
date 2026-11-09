@@ -1,0 +1,29 @@
+{
+  "best_model_deployable": "rf",
+  "macroF1_P1_FALL": 0.9984,
+  "macroF1_P2_FBEHAV": 0.7843,
+  "delta_optimism": 0.2141,
+  "delta_ci95": [
+    0.1599,
+    0.27
+  ],
+  "identifier_probe_macroF1": 0.9927,
+  "time_probe_macroF1": 0.7087,
+  "exact_duplicate_rate": 0.0299,
+  "cross_label_duplicate_rate": 0.0,
+  "n_attack_devices": 8,
+  "n_devices": 78,
+  "classes": [
+    "Brute Force",
+    "C&C Communication",
+    "DoS",
+    "Infection",
+    "Network Scanning",
+    "Normal",
+    "Unknown"
+  ],
+  "scale": "main",
+  "rows": 404324,
+  "config_hash": "e21113edae",
+  "p2_design": "leave-one-attacked-device-out (8 folds); benign devices partitioned round-robin"
+}

@@ -1,0 +1,17 @@
+protocol,fold,n_train,n_test,test_devices,test_attack_devices,test_segments,test_classes,test_attack_rows
+P1-random,0,323459,80865,78,air-quality-1;building-monitor-1;city-power-1;combined-cycle-1;combined-cycle-10;domotic-monitor-1;ip-camera-museum-1;ip-camera-street-1,1;2;3;4,7,10649
+P1-random,1,323459,80865,78,air-quality-1;building-monitor-1;city-power-1;combined-cycle-1;combined-cycle-10;domotic-monitor-1;ip-camera-museum-1;ip-camera-street-1,1;2;3;4,7,10650
+P1-random,2,323459,80865,78,air-quality-1;building-monitor-1;city-power-1;combined-cycle-1;combined-cycle-10;domotic-monitor-1;ip-camera-museum-1;ip-camera-street-1,1;2;3;4,7,10649
+P1-random,3,323459,80865,78,air-quality-1;building-monitor-1;city-power-1;combined-cycle-1;combined-cycle-10;domotic-monitor-1;ip-camera-museum-1;ip-camera-street-1,1;2;3;4,7,10649
+P1-random,4,323460,80864,78,air-quality-1;building-monitor-1;city-power-1;combined-cycle-1;combined-cycle-10;domotic-monitor-1;ip-camera-museum-1;ip-camera-street-1,1;2;3;4,7,10648
+P2-device,0,348474,55850,10,air-quality-1,1;2;3;4,5,6924
+P2-device,1,359318,45006,10,building-monitor-1,2;3;4,7,7907
+P2-device,2,362686,41638,10,city-power-1,1;2;3;4,6,7856
+P2-device,3,349867,54457,10,combined-cycle-1,1;2;3;4,7,7899
+P2-device,4,335341,68983,10,combined-cycle-10,2;3;4,6,7933
+P2-device,5,356229,48095,10,domotic-monitor-1,1;2;3;4,7,7894
+P2-device,6,354341,49983,9,ip-camera-museum-1,2;3;4,6,3960
+P2-device,7,364012,40312,9,ip-camera-street-1,1;3;4,7,2872
+P3-segment,0,357666,46658,9,air-quality-1;city-power-1;domotic-monitor-1;ip-camera-street-1,1,7,25546
+P3-segment,1,357365,46959,9,building-monitor-1;ip-camera-museum-1,2,7,11867
+P3-segment,2,333594,70730,30,combined-cycle-1;combined-cycle-10,4,7,15832
